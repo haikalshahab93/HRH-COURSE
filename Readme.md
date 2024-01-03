@@ -7,3 +7,6 @@ npm install @react-navigation/native
 npm install @react-navigation/bottom-tabs
 npm i @expo/vector-icons
 npm install @react-navigation/stack 
+
+<!-- Grapql -->
+npm add graphql-request graphql

@@ -11,7 +11,7 @@ export default function Header() {
     <View>
       <View style={[{ justifyContent: 'space-between' }, styles.rowStyle]}>
         <View style={styles.rowStyle}>
-          <Image source={{ uri: user?.imageUrl }} style={{ width: 50, heigt: 50, borderRadius: 99 }} />
+          <Image source={{ uri: user?.imageUrl }} style={{ width: 50, height: 50, borderRadius: 99 }} />
           <View>
             <Text styles={styles.mainText}>Welcome</Text>
             <Text style={styles.mainText}>{user?.fullName}</Text>
