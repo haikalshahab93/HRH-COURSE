@@ -6,6 +6,7 @@ import MyCourse from '../Screen/MyCourse';
 import LeaderBoard from '../Screen/LeaderBoard';
 import Profile from '../Screen/Profile';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons'
+import HomeScreenNavigation from './HomeScreenNavigation';
 
 
 const Tab = createBottomTabNavigator();
@@ -15,7 +16,7 @@ export default function TabNavigation() {
         <Tab.Navigator screenOptions={{
             headerShown: false
         }}>
-            <Tab.Screen name="home" component={HomeScreen}
+            <Tab.Screen name="home" component={HomeScreenNavigation}
                 options={{
                     tabBarIcon: ({ color, size }) => (
                         <Ionicons name="home" size={size} color={color} />
