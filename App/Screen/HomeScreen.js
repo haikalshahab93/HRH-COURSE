@@ -6,8 +6,8 @@ import Colors from '../Utils/Colors'
 export default function HomeScreen() {
     return (
         <View>
-            <View style={{backgroundColor:Colors.PRIMARY, height:250, padding:20}} >
-                <Header/>
+            <View style={{ backgroundColor: Colors.PRIMARY, height: 250, padding: 20 }} >
+                <Header />
             </View>
         </View>
     )
