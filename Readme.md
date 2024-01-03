@@ -10,3 +10,6 @@ npm install @react-navigation/stack
 
 <!-- Grapql -->
 npm add graphql-request graphql
+
+
+-2.38.18
